@@ -1,0 +1,3 @@
+Colocá acá tu video de fondo del hero con el nombre: hero.mp4
+Opcional: hero-poster.jpg (imagen mientras el video carga).
+Mientras no exista hero.mp4, el hero muestra un degradé verde oliva de fondo.
