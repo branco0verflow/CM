@@ -9,6 +9,7 @@ const WHATSAPP_URL =
   "https://wa.me/59897094444?text=Hola%20CyclesMotors,%20quiero%20consultar%20por%20una%20moto";
 
 const links = [
+  { label: "Inicio", href: "/" },
   { label: "Tienda de Motos", href: "/tienda" },
   { label: "Equipamiento", href: "/equipamiento" },
   { label: "Servicio Post Venta", href: "#service" },

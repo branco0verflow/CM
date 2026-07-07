@@ -3,6 +3,7 @@ import { motos } from "@/data/motos";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MotoDetail from "@/components/MotoDetail";
+import Sugerencias from "@/components/Sugerencias";
 
 export async function generateStaticParams() {
   return motos.map((moto) => ({ id: moto.id }));
@@ -39,6 +40,7 @@ export default async function MotoDetailPage({
       <Navbar />
       <main>
         <MotoDetail moto={moto} />
+        <Sugerencias moto={moto} />
       </main>
       <Footer />
     </>

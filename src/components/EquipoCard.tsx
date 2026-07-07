@@ -82,10 +82,7 @@ export default function EquipoCard({ equipo }: { equipo: Equipo }) {
             {equipo.moneda} {equipo.precio.toLocaleString("es-UY")}
           </span>
 
-          <a
-            href={WHATSAPP_URL(equipo)}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
             className="
               rounded-lg border border-[#D4B21C]/25
               bg-transparent px-4 py-2
@@ -97,7 +94,7 @@ export default function EquipoCard({ equipo }: { equipo: Equipo }) {
             "
           >
             Consultar
-          </a>
+          </button>
         </div>
       </div>
     </article>

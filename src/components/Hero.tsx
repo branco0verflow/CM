@@ -5,7 +5,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 
 const acciones = [
-  { label: "Motos", href: "#destacados" },
+  { label: "Motos", href: "#tienda" },
   { label: "Equipamientos", href: "/equipamiento" },
 ];
 

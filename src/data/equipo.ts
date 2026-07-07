@@ -32,7 +32,7 @@ export const equipo: Equipo[] = [
     stock: 8,
     destacado: true,
     imagenPrincipalEquipo: "/equipo/e1.png",
-    imagenes: ["/equipo/e1.png"],
+    imagenes: ["/equipo/cas.png"],
   },
   {
     id: "eq-002",
@@ -47,8 +47,8 @@ export const equipo: Equipo[] = [
     colores: ["Negro", "Azul oscuro"],
     stock: 6,
     destacado: true,
-    imagenPrincipalEquipo: "/equipo/campera-touring-night-road.png",
-    imagenes: ["/equipo/campera-touring-night-road.png"],
+    imagenPrincipalEquipo: "/equipo/cam.png",
+    imagenes: ["/equipo/cam.png"],
   },
   {
     id: "eq-003",
@@ -63,8 +63,8 @@ export const equipo: Equipo[] = [
     colores: ["Negro", "Negro/Rojo"],
     stock: 12,
     destacado: false,
-    imagenPrincipalEquipo: "/equipo/guantes-racing-grip-pro.png",
-    imagenes: ["/equipo/guantes-racing-grip-pro.png"],
+    imagenPrincipalEquipo: "/equipo/gua.png",
+    imagenes: ["/equipo/gua.png"],
   },
   {
     id: "eq-004",
@@ -79,8 +79,8 @@ export const equipo: Equipo[] = [
     colores: ["Negro"],
     stock: 7,
     destacado: false,
-    imagenPrincipalEquipo: "/equipo/botas-rider-storm.png",
-    imagenes: ["/equipo/botas-rider-storm.png"],
+    imagenPrincipalEquipo: "/equipo/bot.png",
+    imagenes: ["/equipo/bot.png"],
   },
   {
     id: "eq-005",
@@ -95,8 +95,8 @@ export const equipo: Equipo[] = [
     colores: ["Negro", "Gris grafito"],
     stock: 5,
     destacado: true,
-    imagenPrincipalEquipo: "/equipo/pantalon-cargo-moto-defender.png",
-    imagenes: ["/equipo/pantalon-cargo-moto-defender.png"],
+    imagenPrincipalEquipo: "/equipo/pan.png",
+    imagenes: ["/equipo/pan.png"],
   },
   {
     id: "eq-006",
@@ -111,8 +111,8 @@ export const equipo: Equipo[] = [
     colores: ["Negro"],
     stock: 10,
     destacado: false,
-    imagenPrincipalEquipo: "/equipo/protector-espalda-flex-shield.png",
-    imagenes: ["/equipo/protector-espalda-flex-shield.png"],
+    imagenPrincipalEquipo: "/equipo/pro.png",
+    imagenes: ["/equipo/pro.png"],
   },
   {
     id: "eq-007",
@@ -127,8 +127,8 @@ export const equipo: Equipo[] = [
     colores: ["Negro", "Amarillo alta visibilidad"],
     stock: 9,
     destacado: false,
-    imagenPrincipalEquipo: "/equipo/impermeable-rain-cover-pro.png",
-    imagenes: ["/equipo/impermeable-rain-cover-pro.png"],
+    imagenPrincipalEquipo: "/equipo/imp.png",
+    imagenes: ["/equipo/imp.png"],
   },
   {
     id: "eq-008",
@@ -143,8 +143,8 @@ export const equipo: Equipo[] = [
     colores: ["Blanco", "Negro mate"],
     stock: 4,
     destacado: true,
-    imagenPrincipalEquipo: "/equipo/casco-modular-route-360.png",
-    imagenes: ["/equipo/casco-modular-route-360.png"],
+    imagenPrincipalEquipo: "/equipo/cas.png",
+    imagenes: ["/equipo/e1.png"],
   },
   {
     id: "eq-009",
@@ -159,8 +159,8 @@ export const equipo: Equipo[] = [
     colores: ["Negro", "Gris"],
     stock: 20,
     destacado: false,
-    imagenPrincipalEquipo: "/equipo/cuellera-termica-wind-block.png",
-    imagenes: ["/equipo/cuellera-termica-wind-block.png"],
+    imagenPrincipalEquipo: "/equipo/cue.png",
+    imagenes: ["/equipo/cue.png"],
   },
   {
     id: "eq-010",
@@ -175,8 +175,8 @@ export const equipo: Equipo[] = [
     colores: ["Negro/Reflectivo", "Amarillo/Reflectivo"],
     stock: 15,
     destacado: false,
-    imagenPrincipalEquipo: "/equipo/chaleco-reflectivo-night-safe.png",
-    imagenes: ["/equipo/chaleco-reflectivo-night-safe.png"],
+    imagenPrincipalEquipo: "/equipo/cha.png",
+    imagenes: ["/equipo/cha.png"],
   },
 ];
 

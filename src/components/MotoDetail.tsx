@@ -4,16 +4,13 @@ import { useState } from "react";
 import Link from "next/link";
 import type { Moto } from "@/data/motos";
 import SafeImage from "./SafeImage";
-
-const WHATSAPP_URL = (moto: Moto) =>
-  `https://wa.me/59891307441?text=${encodeURIComponent(
-    `Hola CyclesMotors, me interesa la ${moto.marca} ${moto.modelo} (${moto.version}).`
-  )}`;
+import ModalLead from "./ModalLead";
 
 export default function MotoDetail({ moto }: { moto: Moto }) {
   const galeria = Array.from(new Set([moto.imagenPrincipal, ...moto.otrasImagenes]));
   const [activeImage, setActiveImage] = useState(moto.imagenPrincipal);
   const [activeColor, setActiveColor] = useState<string | null>(null);
+  const [modalOpen, setModalOpen] = useState(false);
 
   const specs = [
     { label: "Motor", value: moto.especificaciones.motor },
@@ -24,7 +21,7 @@ export default function MotoDetail({ moto }: { moto: Moto }) {
   const placeholder = <span className="absolute inset-0" aria-hidden />;
 
   return (
-    <section className="relative bg-[linear-gradient(180deg,#10130D_0%,#0C0E0A_55%,#050505_100%)] py-13 sm:py-20">
+    <section className="relative bg-[linear-gradient(180deg,#10130D_0%,#0C0E0A_55%,#050505_100%)] py-8 sm:py-10">
       <div className="container">
         <Link
           href="/#tienda"
@@ -150,17 +147,18 @@ export default function MotoDetail({ moto }: { moto: Moto }) {
               </dl>
             </div>
 
-            <a
-              href={WHATSAPP_URL(moto)}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              type="button"
+              onClick={() => setModalOpen(true)}
               className="mt-9 inline-flex items-center justify-center gap-2 rounded-lg bg-gold px-8 py-3.5 text-[0.92rem] font-bold tracking-wide text-ink transition-colors duration-200 hover:bg-gold-bright"
             >
               Me interesa
-            </a>
+            </button>
           </div>
         </div>
       </div>
+
+      <ModalLead open={modalOpen} onClose={() => setModalOpen(false)} moto={moto} />
     </section>
   );
 }

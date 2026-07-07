@@ -83,7 +83,7 @@ export default function Marcas() {
         <div className="flex w-max animate-marquee will-change-transform">
           {track.map((marca, i) => (
             <div
-              className="group relative mx-[clamp(24px,4vw,48px)] flex h-[clamp(42px,5.6vw,61px)] w-[clamp(96px,12.8vw,144px)] shrink-0 items-center justify-center"
+              className="group relative mx-[clamp(31px,5.2vw,62px)] flex h-[clamp(55px,7.3vw,79px)] w-[clamp(125px,16.6vw,187px)] shrink-0 items-center justify-center"
               key={`${marca.nombre}-${i}`}
             >
               <img
