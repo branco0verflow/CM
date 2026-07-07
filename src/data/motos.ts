@@ -40,7 +40,7 @@ export const motos: Moto[] = [
     destacado: true,
     imagenPrincipal: "/images/motos/m1.png",
     otrasImagenes: [
-      "/images/motos/m2.png",
+      "/images/motos/m6.png",
       "/images/motos/m3.png"
     ],
     marca: "Benelli",
@@ -69,7 +69,10 @@ export const motos: Moto[] = [
     id: "2",
     destacado: false,
     imagenPrincipal: "/images/motos/m6.png",
-    otrasImagenes: [],
+    otrasImagenes: [
+       "/images/motos/m6.png",
+      "/images/motos/m11.png"
+    ],
     marca: "Benelli",
     modelo: "Leoncino 500",
     version: "Trail",
@@ -78,8 +81,12 @@ export const motos: Moto[] = [
     estilo: "CLASSIC",
     colores: [
       {
-        nombre: "Gris",
-        imagenPrincipalColor: "/images/motos/m7.png"
+        nombre: "Verde",
+        imagenPrincipalColor: "/images/motos/m11.png"
+      },
+      {
+        nombre: "Rojo/Negro",
+        imagenPrincipalColor: "/images/motos/m6.png"
       }
     ],
     especificaciones: {
@@ -92,7 +99,10 @@ export const motos: Moto[] = [
     id: "3",
     destacado: false,
     imagenPrincipal: "/images/motos/m8.png",
-    otrasImagenes: [],
+    otrasImagenes: [
+       "/images/motos/m6.png",
+      "/images/motos/m3.png"
+    ],
     marca: "Benelli",
     modelo: "302S",
     version: "ABS",
@@ -102,7 +112,15 @@ export const motos: Moto[] = [
     colores: [
       {
         nombre: "Negro",
-        imagenPrincipalColor: "/images/motos/m9.png"
+        imagenPrincipalColor: "/images/motos/m8.png"
+      },
+      {
+        nombre: "Rojo/Negro",
+        imagenPrincipalColor: "/images/motos/m6.png"
+      },
+      {
+        nombre: "Amarillo/Negro",
+        imagenPrincipalColor: "/images/motos/m11.png"
       }
     ],
     especificaciones: {
@@ -115,7 +133,10 @@ export const motos: Moto[] = [
     id: "4",
     destacado: false,
     imagenPrincipal: "/images/motos/m10.png",
-    otrasImagenes: [],
+    otrasImagenes: [
+       "/images/motos/m7.png",
+      "/images/motos/m5.png"
+    ],
     marca: "Kawasaki",
     modelo: "Z900",
     version: "ABS",
@@ -124,8 +145,16 @@ export const motos: Moto[] = [
     estilo: "NAKED",
     colores: [
       {
-        nombre: "Negro / Verde",
+        nombre: "Negro",
         imagenPrincipalColor: "/images/motos/m5.png"
+      },
+      {
+        nombre: "Rojo/Negro",
+        imagenPrincipalColor: "/images/motos/m10.png"
+      },
+      {
+        nombre: "Beige/Negro",
+        imagenPrincipalColor: "/images/motos/m7.png"
       }
     ],
     especificaciones: {
@@ -138,7 +167,10 @@ export const motos: Moto[] = [
     id: "5",
     destacado: false,
     imagenPrincipal: "/images/motos/m7.png",
-    otrasImagenes: [],
+    otrasImagenes: [
+      "/images/motos/m7.png",
+      "/images/motos/m5.png"
+    ],
     marca: "Kawasaki",
     modelo: "Versys 650",
     version: "Tourer",
@@ -147,8 +179,8 @@ export const motos: Moto[] = [
     estilo: "TURISMO",
     colores: [
       {
-        nombre: "Verde",
-        imagenPrincipalColor: "/images/motos/m2.png"
+        nombre: "Beige",
+        imagenPrincipalColor: "/images/motos/m7.png"
       }
     ],
     especificaciones: {
@@ -161,7 +193,10 @@ export const motos: Moto[] = [
     id: "6",
     destacado: false,
     imagenPrincipal: "/images/motos/m9.png",
-    otrasImagenes: [],
+    otrasImagenes: [
+      "/images/motos/m7.png",
+      "/images/motos/m5.png"
+    ],
     marca: "Kawasaki",
     modelo: "Ninja 400",
     version: "ABS",
@@ -170,8 +205,16 @@ export const motos: Moto[] = [
     estilo: "SPORT",
     colores: [
       {
-        nombre: "Verde Kawasaki",
+        nombre: "Beige",
         imagenPrincipalColor: "/images/motos/m7.png"
+      },
+      {
+        nombre: "Azul",
+        imagenPrincipalColor: "/images/motos/m3.png"
+      },
+      {
+        nombre: "Verde",
+        imagenPrincipalColor: "/images/motos/m10.png"
       }
     ],
     especificaciones: {
@@ -183,8 +226,11 @@ export const motos: Moto[] = [
   {
     id: "7",
     destacado: false,
-    imagenPrincipal: "/images/motos/m5.png",
-    otrasImagenes: [],
+    imagenPrincipal: "/images/motos/m4.png",
+    otrasImagenes: [
+      "/images/motos/m8.png",
+      "/images/motos/m4.png"
+    ],
     marca: "KTM",
     modelo: "390 Duke",
     version: "Standard",
@@ -195,6 +241,14 @@ export const motos: Moto[] = [
       {
         nombre: "Naranja",
         imagenPrincipalColor: "/images/motos/m9.png"
+      },
+      {
+        nombre: "Azul",
+        imagenPrincipalColor: "/images/motos/m4.png"
+      },
+      {
+        nombre: "Bordo",
+        imagenPrincipalColor: "/images/motos/m3.png"
       }
     ],
     especificaciones: {
@@ -206,8 +260,11 @@ export const motos: Moto[] = [
   {
     id: "8",
     destacado: false,
-    imagenPrincipal: "/images/motos/m5.png",
-    otrasImagenes: [],
+    imagenPrincipal: "/images/motos/m9.png",
+    otrasImagenes: [
+      "/images/motos/m8.png",
+      "/images/motos/m4.png"
+    ],
     marca: "KTM",
     modelo: "250 Duke",
     version: "Standard",
@@ -218,6 +275,14 @@ export const motos: Moto[] = [
       {
         nombre: "Negro / Naranja",
         imagenPrincipalColor: "/images/motos/m5.png"
+      },
+      {
+        nombre: "Blanco",
+        imagenPrincipalColor: "/images/motos/m12.png"
+      },
+      {
+        nombre: "Celeste",
+        imagenPrincipalColor: "/images/motos/m11.png"
       }
     ],
     especificaciones: {
@@ -229,8 +294,13 @@ export const motos: Moto[] = [
   {
     id: "9",
     destacado: false,
-    imagenPrincipal: "/images/motos/m1.png",
-    otrasImagenes: [],
+    imagenPrincipal: "/images/motos/m2.png",
+    otrasImagenes: [
+      "/images/motos/m6.png",
+      "/images/motos/m3.png",
+      "/images/motos/m11.png",
+      "/images/motos/m12.png"
+    ],
     marca: "Vespa",
     modelo: "GTS 300",
     version: "Super",
@@ -240,11 +310,15 @@ export const motos: Moto[] = [
     colores: [
       {
         nombre: "Blanco",
-        imagenPrincipalColor: "/images/motos/m3.png"
+        imagenPrincipalColor: "/images/motos/m12.png"
+      },
+      {
+        nombre: "Azul",
+        imagenPrincipalColor: "/images/motos/m4.png"
       },
       {
         nombre: "Rojo",
-        imagenPrincipalColor: "/images/motos/m4.png"
+        imagenPrincipalColor: "/images/motos/m12.png"
       }
     ],
     especificaciones: {
@@ -256,8 +330,13 @@ export const motos: Moto[] = [
   {
     id: "10",
     destacado: true,
-    imagenPrincipal: "/images/motos/m8.png",
-    otrasImagenes: [],
+    imagenPrincipal: "/images/motos/m12.png",
+    otrasImagenes: [
+      "/images/motos/m2.png",
+      "/images/motos/m5.png",
+      "/images/motos/m12.png",
+      "/images/motos/m11.png"
+    ],
     marca: "Vespa",
     modelo: "Primavera 150",
     version: "ABS",
@@ -267,7 +346,11 @@ export const motos: Moto[] = [
     colores: [
       {
         nombre: "Celeste",
-        imagenPrincipalColor: "/images/motos/m6.png"
+        imagenPrincipalColor: "/images/motos/m12.png"
+      },
+      {
+        nombre: "Negro",
+        imagenPrincipalColor: "/images/motos/m2.png"
       }
     ],
     especificaciones: {
@@ -280,7 +363,13 @@ export const motos: Moto[] = [
     id: "11",
     destacado: false,
     imagenPrincipal: "/images/motos/m3.png",
-    otrasImagenes: [],
+    otrasImagenes: [
+      "/images/motos/m6.png",
+      "/images/motos/m3.png",
+      "/images/motos/m11.png",
+      "/images/motos/m12.png",
+      "/images/motos/m2.png"
+    ],
     marca: "Bajaj",
     modelo: "Dominar 400",
     version: "Touring",
@@ -289,8 +378,16 @@ export const motos: Moto[] = [
     estilo: "TURISMO",
     colores: [
       {
-        nombre: "Verde",
-        imagenPrincipalColor: "/images/motos/m10.png"
+        nombre: "Negro",
+        imagenPrincipalColor: "/images/motos/m13.png"
+      },
+      {
+        nombre: "Azul",
+        imagenPrincipalColor: "/images/motos/m12.png"
+      },
+      {
+        nombre: "Naranja",
+        imagenPrincipalColor: "/images/motos/m4.png"
       }
     ],
     especificaciones: {
@@ -302,8 +399,12 @@ export const motos: Moto[] = [
   {
     id: "12",
     destacado: false,
-    imagenPrincipal: "/images/motos/m4.png",
-    otrasImagenes: [],
+    imagenPrincipal: "/images/motos/m13.png",
+    otrasImagenes: [
+      "/images/motos/m8.png",
+      "/images/motos/m4.png",
+      "/images/motos/m12.png"
+    ],
     marca: "Bajaj",
     modelo: "Pulsar N250",
     version: "ABS",
@@ -312,8 +413,16 @@ export const motos: Moto[] = [
     estilo: "NAKED",
     colores: [
       {
-        nombre: "Rojo",
+        nombre: "Amarillo",
+        imagenPrincipalColor: "/images/motos/m13.png"
+      },
+      {
+        nombre: "Rojo/Negro",
         imagenPrincipalColor: "/images/motos/m6.png"
+      },
+      {
+        nombre: "Naranja",
+        imagenPrincipalColor: "/images/motos/m4.png"
       }
     ],
     especificaciones: {
@@ -325,8 +434,12 @@ export const motos: Moto[] = [
   {
     id: "13",
     destacado: false,
-    imagenPrincipal: "/images/motos/m5.png",
-    otrasImagenes: [],
+    imagenPrincipal: "/images/motos/m3.png",
+    otrasImagenes: [
+      "/images/motos/m8.png",
+      "/images/motos/m4.png",
+      "/images/motos/m12.png"
+    ],
     marca: "Keeway",
     modelo: "RKF 125",
     version: "Standard",
@@ -336,7 +449,15 @@ export const motos: Moto[] = [
     colores: [
       {
         nombre: "Negro",
-        imagenPrincipalColor: "/images/motos/m6.png"
+        imagenPrincipalColor: "/images/motos/m3.png"
+      },
+      {
+        nombre: "Amarillo",
+        imagenPrincipalColor: "/images/motos/m13.png"
+      },
+      {
+        nombre: "Azul",
+        imagenPrincipalColor: "/images/motos/m12.png"
       }
     ],
     especificaciones: {
@@ -348,8 +469,12 @@ export const motos: Moto[] = [
   {
     id: "14",
     destacado: false,
-    imagenPrincipal: "/images/motos/m9.png",
-    otrasImagenes: [],
+    imagenPrincipal: "/images/motos/m4.png",
+    otrasImagenes: [
+      "/images/motos/m8.png",
+      "/images/motos/m4.png",
+      "/images/motos/m12.png"
+    ],
     marca: "Beta",
     modelo: "RR 300",
     version: "2T",
@@ -360,6 +485,14 @@ export const motos: Moto[] = [
       {
         nombre: "Rojo Beta",
         imagenPrincipalColor: "/images/motos/m8.png"
+      },
+      {
+        nombre: "Azul",
+        imagenPrincipalColor: "/images/motos/m6.png"
+      },
+      {
+        nombre: "Violeta",
+        imagenPrincipalColor: "/images/motos/m1.png"
       }
     ],
     especificaciones: {
@@ -371,8 +504,12 @@ export const motos: Moto[] = [
   {
     id: "15",
     destacado: false,
-    imagenPrincipal: "/images/motos/m7.png",
-    otrasImagenes: [],
+    imagenPrincipal: "/images/motos/m11.png",
+    otrasImagenes: [
+      "/images/motos/m8.png",
+      "/images/motos/m4.png",
+      "/images/motos/m12.png"
+    ],
     marca: "Yumbo",
     modelo: "GS 200",
     version: "Adventure",
@@ -381,7 +518,11 @@ export const motos: Moto[] = [
     estilo: "TURISMO",
     colores: [
       {
-        nombre: "Negro",
+        nombre: "Amarillo",
+        imagenPrincipalColor: "/images/motos/m11.png"
+      },
+      {
+        nombre: "Azul",
         imagenPrincipalColor: "/images/motos/m1.png"
       }
     ],

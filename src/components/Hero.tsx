@@ -45,13 +45,13 @@ export default function Hero() {
           Historia sobre dos ruedas · 1956
         </span>
         <h1
-          className="hero-title font-display text-cream uppercase leading-[0.95] tracking-[0.02em]"
+          className="hero-title font-display text-white uppercase leading-[0.95] tracking-[0.02em]"
           style={{
             fontSize: "clamp(2.6rem, 7vw, 5.5rem)",
             textShadow: "0 6px 30px rgba(0,0,0,0.5)",
           }}
         >
-          Elegí tu próxima máquina
+          Las Ruedas de tu vida
         </h1>
 
         <div className="mt-5.5 flex flex-col flex-wrap justify-center gap-3.5 sm:flex-row">
