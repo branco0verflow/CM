@@ -9,20 +9,20 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Reemplazá cada `imagen` por el logo real en /public/marcas/
 const marcas = [
-  { nombre: "Triumph", imagen: "images/marcas/m1.png" },
-  { nombre: "Yamaha", imagen: "images/marcas/m2.png" },
-  { nombre: "Honda", imagen: "images/marcas/m3.png" },
-  { nombre: "KTM", imagen: "images/marcas/m4.png" },
-  { nombre: "Kawasaki", imagen: "images/marcas/m5.png" },
-  { nombre: "Ducati", imagen: "images/marcas/m6.png" },
-  { nombre: "Suzuki", imagen: "images/marcas/m7.png" },
-  { nombre: "Ferrari", imagen: "images/marcas/m8.png" },
-  { nombre: "Porsche", imagen: "images/marcas/m9.png" },
-  { nombre: "Lamborghini", imagen: "images/marcas/m10.png" },
-  { nombre: "McLaren", imagen: "images/marcas/m11.png" },
-  { nombre: "Aston Martin", imagen: "images/marcas/m12.png" },
-  { nombre: "Mercedes", imagen: "images/marcas/m13.png" },
-  { nombre: "BMW", imagen: "images/marcas/m14.png" },
+  { nombre: "Triumph", imagen: "/images/marcas/m1.png" },
+  { nombre: "Yamaha", imagen: "/images/marcas/m2.png" },
+  { nombre: "Honda", imagen: "/images/marcas/m3.png" },
+  { nombre: "KTM", imagen: "/images/marcas/m4.png" },
+  { nombre: "Kawasaki", imagen: "/images/marcas/m5.png" },
+  { nombre: "Ducati", imagen: "/images/marcas/m6.png" },
+  { nombre: "Suzuki", imagen: "/images/marcas/m7.png" },
+  { nombre: "Ferrari", imagen: "/images/marcas/m8.png" },
+  { nombre: "Porsche", imagen: "/images/marcas/m9.png" },
+  { nombre: "Lamborghini", imagen: "/images/marcas/m10.png" },
+  { nombre: "McLaren", imagen: "/images/marcas/m11.png" },
+  { nombre: "Aston Martin", imagen: "/images/marcas/m12.png" },
+  { nombre: "Mercedes", imagen: "/images/marcas/m13.png" },
+  { nombre: "BMW", imagen: "/images/marcas/m14.png" },
 ];
 
 // Duplicado para el loop continuo
